@@ -1,0 +1,14 @@
+thumbs.db
+/Build
+/BuildRelease
+*.user
+*.cache
+*.VC.db
+*.suo
+obj/
+bin/
+.vs/
+packages/
+*.vspx
+/BuildNgXmlBuilder
+/BuildNgXmlBuilderRelease
