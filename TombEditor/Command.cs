@@ -1276,6 +1276,11 @@ namespace TombEditor
                 EditorActions.TexturizeAll(args.Editor.SelectedRoom, args.Editor.SelectedSectors, args.Editor.SelectedTexture, BlockFaceType.Wall);
             });
 
+            AddCommand("TextureRoom", "Texture room", CommandType.Textures, delegate (CommandArgs args)
+            {
+                EditorActions.TexturizeAll(args.Editor.SelectedRoom, args.Editor.SelectedSectors, args.Editor.SelectedTexture, BlockFaceType.All);
+            });
+
             AddCommand("ClearAllTexturesInRoom", "Clear all textures in room", CommandType.Textures, delegate (CommandArgs args)
             {
                 var emptyTexture = new TextureArea() { Texture = null };

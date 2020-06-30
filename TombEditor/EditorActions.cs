@@ -1827,6 +1827,16 @@ namespace TombEditor
                                 if (room.IsFaceDefined(x, z, face))
                                     ApplyTextureWithoutUpdate(room, new VectorInt2(x, z), face, texture);
                             break;
+
+                        case BlockFaceType.All:
+                            ApplyTextureWithoutUpdate(room, new VectorInt2(x, z), BlockFace.Floor, texture);
+                            ApplyTextureWithoutUpdate(room, new VectorInt2(x, z), BlockFace.FloorTriangle2, texture);
+                            ApplyTextureWithoutUpdate(room, new VectorInt2(x, z), BlockFace.Ceiling, texture);
+                            ApplyTextureWithoutUpdate(room, new VectorInt2(x, z), BlockFace.CeilingTriangle2, texture);
+                            for (BlockFace face = BlockFace.PositiveZ_QA; face <= BlockFace.DiagonalRF; face++)
+                                if (room.IsFaceDefined(x, z, face))
+                                    ApplyTextureWithoutUpdate(room, new VectorInt2(x, z), face, texture);
+                            break;
                     }
 
                 }

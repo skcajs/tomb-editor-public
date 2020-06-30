@@ -366,6 +366,7 @@ namespace TombEditor
             this["TextureFloor"] = new SortedSet<Hotkey> { Keys.T | Keys.Control | Keys.Alt };
             this["TextureCeiling"] = new SortedSet<Hotkey> { Keys.V | Keys.Control | Keys.Alt };
             this["TextureWalls"] = new SortedSet<Hotkey> { W | Keys.Control | Keys.Alt };
+            this["TextureRoom"] = new SortedSet<Hotkey> { Keys.K | Keys.Control | Keys.Alt };
             this["AverageFloor"] = new SortedSet<Hotkey> { Keys.I | Keys.Control | Keys.Alt };
             this["AverageCeiling"] = new SortedSet<Hotkey> { Keys.J | Keys.Control | Keys.Alt };
             this["GridWallsIn3"] = new SortedSet<Hotkey> { Keys.D3 | Keys.Control };

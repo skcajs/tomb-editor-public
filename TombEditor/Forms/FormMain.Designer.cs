@@ -135,8 +135,9 @@ namespace TombEditor.Forms
             this.remapTextureToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuSeparator9 = new System.Windows.Forms.ToolStripSeparator();
             this.textureFloorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.textureWallsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.textureCeilingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.textureWallsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.textureRoomToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripSeparator();
             this.clearAllTexturesInRoomToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.clearAllTexturesInRoomToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
@@ -1361,8 +1362,9 @@ namespace TombEditor.Forms
             this.remapTextureToolStripMenuItem,
             this.toolStripMenuSeparator9,
             this.textureFloorToolStripMenuItem,
-            this.textureWallsToolStripMenuItem,
             this.textureCeilingToolStripMenuItem,
+            this.textureWallsToolStripMenuItem,
+            this.textureRoomToolStripMenuItem,
             this.toolStripMenuItem3,
             this.clearAllTexturesInRoomToolStripMenuItem,
             this.clearAllTexturesInRoomToolStripMenuItem1,
@@ -1455,6 +1457,16 @@ namespace TombEditor.Forms
             this.textureFloorToolStripMenuItem.Tag = "TextureFloor";
             this.textureFloorToolStripMenuItem.Text = "TextureFloor";
             // 
+            // textureCeilingToolStripMenuItem
+            // 
+            this.textureCeilingToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
+            this.textureCeilingToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(220)))), ((int)(((byte)(220)))));
+            this.textureCeilingToolStripMenuItem.Image = global::TombEditor.Properties.Resources.texture_Ceiling2_16;
+            this.textureCeilingToolStripMenuItem.Name = "textureCeilingToolStripMenuItem";
+            this.textureCeilingToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
+            this.textureCeilingToolStripMenuItem.Tag = "TextureCeiling";
+            this.textureCeilingToolStripMenuItem.Text = "TextureCeiling";
+            // 
             // textureWallsToolStripMenuItem
             // 
             this.textureWallsToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
@@ -1465,15 +1477,15 @@ namespace TombEditor.Forms
             this.textureWallsToolStripMenuItem.Tag = "TextureWalls";
             this.textureWallsToolStripMenuItem.Text = "TextureWalls";
             // 
-            // textureCeilingToolStripMenuItem
+            // textureRoomToolStripMenuItem
             // 
-            this.textureCeilingToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
-            this.textureCeilingToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(220)))), ((int)(((byte)(220)))));
-            this.textureCeilingToolStripMenuItem.Image = global::TombEditor.Properties.Resources.texture_Ceiling2_16;
-            this.textureCeilingToolStripMenuItem.Name = "textureCeilingToolStripMenuItem";
-            this.textureCeilingToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
-            this.textureCeilingToolStripMenuItem.Tag = "TextureCeiling";
-            this.textureCeilingToolStripMenuItem.Text = "TextureCeiling";
+            this.textureRoomToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
+            this.textureRoomToolStripMenuItem.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(220)))), ((int)(((byte)(220)))));
+            this.textureRoomToolStripMenuItem.Image = global::TombEditor.Properties.Resources.texture_Room2_16;
+            this.textureRoomToolStripMenuItem.Name = "textureRoomToolStripMenuItem";
+            this.textureRoomToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
+            this.textureRoomToolStripMenuItem.Tag = "TextureRoom";
+            this.textureRoomToolStripMenuItem.Text = "TextureRoom";
             // 
             // toolStripMenuItem3
             // 
@@ -2236,6 +2248,7 @@ namespace TombEditor.Forms
         private System.Windows.Forms.ToolStripMenuItem textureFloorToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem textureCeilingToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem textureWallsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem textureRoomToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripMenuSeparator10;
         private System.Windows.Forms.ToolStripMenuItem animationRangesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem importConvertTexturesToPng;

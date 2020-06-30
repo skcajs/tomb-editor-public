@@ -98,7 +98,7 @@ namespace TombLib.LevelData
 
     public enum BlockFaceType
     {
-        Floor, Ceiling, Wall
+        Floor, Ceiling, Wall, All
     }
 
     public enum BlockFaceShape

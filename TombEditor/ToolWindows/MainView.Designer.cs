@@ -66,6 +66,7 @@
             this.butTextureFloor = new System.Windows.Forms.ToolStripButton();
             this.butTextureCeiling = new System.Windows.Forms.ToolStripButton();
             this.butTextureWalls = new System.Windows.Forms.ToolStripButton();
+            this.butTextureRoom = new System.Windows.Forms.ToolStripButton();
             this.butEditLevelSettings = new System.Windows.Forms.ToolStripButton();
             this.butToggleFlyMode = new System.Windows.Forms.ToolStripButton();
             this.butSearch = new System.Windows.Forms.ToolStripButton();
@@ -125,6 +126,7 @@
             this.butTextureFloor,
             this.butTextureCeiling,
             this.butTextureWalls,
+            this.butTextureRoom,
             this.butEditLevelSettings,
             this.butToggleFlyMode,
             this.butSearch,
@@ -715,6 +717,17 @@
             this.butTextureWalls.Size = new System.Drawing.Size(24, 24);
             this.butTextureWalls.Tag = "TextureWalls";
             // 
+            // butTextureRoom
+            // 
+            this.butTextureRoom.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
+            this.butTextureRoom.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.butTextureRoom.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(220)))), ((int)(((byte)(220)))));
+            this.butTextureRoom.Image = global::TombEditor.Properties.Resources.texture_Room2_16;
+            this.butTextureRoom.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.butTextureRoom.Name = "butTextureRoom";
+            this.butTextureRoom.Size = new System.Drawing.Size(24, 24);
+            this.butTextureRoom.Tag = "TextureRoom";
+            // 
             // butEditLevelSettings
             // 
             this.butEditLevelSettings.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(63)))), ((int)(((byte)(65)))));
@@ -847,6 +860,7 @@
         private System.Windows.Forms.ToolStripButton butTextureFloor;
         private System.Windows.Forms.ToolStripButton butTextureCeiling;
         private System.Windows.Forms.ToolStripButton butTextureWalls;
+        private System.Windows.Forms.ToolStripButton butTextureRoom;
         private System.Windows.Forms.ToolStripButton butEditLevelSettings;
         private System.Windows.Forms.ToolStripButton butToggleFlyMode;
         private System.Windows.Forms.ToolStripButton butSearch;
